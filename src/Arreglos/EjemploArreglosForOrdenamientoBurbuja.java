@@ -1,7 +1,5 @@
 package Arreglos;
 
-import java.util.Arrays;
-
 public class EjemploArreglosForOrdenamientoBurbuja {
 
     public static void arregloInverso(String[] arreglo) {
@@ -18,9 +16,8 @@ public class EjemploArreglosForOrdenamientoBurbuja {
 
     //Ordenamiento burbuja de con array de cualquier tipo mediante Object
     public static void sortBurbuja(Object[] arreglo) {
-        int count = arreglo.length;
-        int count2 = 0;
 
+        int count2 = 0;
 
         for (int i = 0; i < arreglo.length - 1; i++) {
             for (int j = 0; j < arreglo.length - 1 - i; j++) {
@@ -40,7 +37,6 @@ public class EjemploArreglosForOrdenamientoBurbuja {
         String[] productos = {"Kinstong Pendrive 64GV", "Samsung Galaxy",
                 "Disco duro SSD Samsung Externo", "Asus NoteBook",
                 "MacBook Air", "Chromecast 4ta generación", "Bicicleta Oxford"};
-
 
         int count = productos.length;
         //llamamos al metodo

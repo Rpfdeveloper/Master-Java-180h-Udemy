@@ -10,35 +10,35 @@ public class EjemploArregloDetectarOrden {
         Scanner s = new Scanner(System.in);
         System.out.println("Introduzca 7 números:");
 
-        for(int i = 0; i < a.length; i++){
+        for (int i = 0; i < a.length; i++) {
             a[i] = s.nextInt();
         }
 
         boolean ascendente = false;
         boolean descendente = false;
 
-        for(int i = 0; i < a.length - 1; i++){
-            if(a[i] > a[i + 1]){
+        for (int i = 0; i < a.length - 1; i++) {
+            if (a[i] > a[i + 1]) {
                 descendente = true;
             }
 
-            if (a[i] < a[i + 1]){
+            if (a[i] < a[i + 1]) {
                 ascendente = true;
             }
         }
-        if(ascendente == true && descendente == true){
+        if (ascendente && descendente) {
             System.out.println("Arreglo = desordenado");
         }
 
-        if(ascendente == false && descendente == false){
+        if (!ascendente && !descendente) {
             System.out.println("Arreglo = todos son iguales");
         }
 
-        if(ascendente == true && descendente == false){
+        if (ascendente && !descendente) {
             System.out.println("Arreglo = Ordenado de forma ascendente");
         }
 
-        if(ascendente == false && descendente == true){
+        if (!ascendente && descendente) {
             System.out.println("Arreglo = ordenado de forma descendente");
         }
 
