@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class EjemploArreglosFor {
     public static void main(String[] args) {
 
-        String [] productos = new String[7];
+        String[] productos = new String[7];
         int count = productos.length;
 
         productos[0] = "Kinstong Pendrive 64GV";
@@ -20,36 +20,36 @@ public class EjemploArreglosFor {
 
         Arrays.sort(productos);
 
-        for (int i = 0; i < count; i++){
+        for (int i = 0; i < count; i++) {
             System.out.println("Para indice " + i + " : " + productos[i]);
         }
 
         System.out.println("==== Usando for each =====");
-        for (String prod: productos){
+        for (String prod : productos) {
             System.out.println("prod = " + prod);
         }
         System.out.println("===== Usando While =====");
         int i = 0;
-        while(i < count){
-            System.out.println("Para indice " + i + " : "  + productos[i]);
+        while (i < count) {
+            System.out.println("Para indice " + i + " : " + productos[i]);
             i++;
         }
 
         System.out.println("===== Usando do While =====");
         int j = 0;
-        do{
-            System.out.println("Para indice " + j + " : "  + productos[j]);
+        do {
+            System.out.println("Para indice " + j + " : " + productos[j]);
             j++;
-        }while(j < count);
+        } while (j < count);
 
-        int [] numeros = new int[10];
+        int[] numeros = new int[10];
 
         int totalNumeros = numeros.length;
-        for (int k = 0; k < totalNumeros; k++ ){
-            numeros[k] = k*3;
+        for (int k = 0; k < totalNumeros; k++) {
+            numeros[k] = k * 3;
         }
 
-        for (int k = 0; k < totalNumeros; k++ ){
+        for (int k = 0; k < totalNumeros; k++) {
             System.out.println("numeros = " + numeros[k]);
         }
     }

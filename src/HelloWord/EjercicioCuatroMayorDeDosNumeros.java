@@ -18,8 +18,8 @@ public class EjercicioCuatroMayorDeDosNumeros {
         System.out.println("Introduzca el segundo número entero");
         num1 = sc.nextInt();
 
-        System.out.println(text = num > num1 ? "Los numeros ordenados de mayor a menor son : " + num + " y " +num1 :
-                "Los numeros ordenados de mayor a menor son : " + num1 + " y " +num);
+        System.out.println(text = num > num1 ? "Los numeros ordenados de mayor a menor son : " + num + " y " + num1 :
+                "Los numeros ordenados de mayor a menor son : " + num1 + " y " + num);
 
     }
 }

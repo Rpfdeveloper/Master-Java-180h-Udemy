@@ -2,13 +2,13 @@ package HelloWord;
 
 public class EjemploClaseMath {
     public static void main(String[] args) {
-        
+
         int absolut = Math.abs(-3);
         System.out.println("absoluto = " + absolut);
 
         int absoluto = Math.abs(3);
         System.out.println("absoluto = " + absolut);
-        
+
         double max = Math.max(3.5, 1.2);
         System.out.println("max = " + max);
 
@@ -23,7 +23,7 @@ public class EjemploClaseMath {
 
         long entero = Math.round(Math.PI);
         System.out.println("entero = " + entero);
-        
+
         double exp = Math.exp(2);
         System.out.println("exp = " + exp);
 

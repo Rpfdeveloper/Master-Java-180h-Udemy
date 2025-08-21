@@ -12,7 +12,7 @@ public class SentenciaISwitchCaseNumDiasMes {
         int numeroDias = 0;
         System.out.println("Ingrese el año (YYYY)");
         int anio = sc.nextInt();
-        switch (mes){
+        switch (mes) {
             case 1:
             case 3:
             case 5:
@@ -29,9 +29,9 @@ public class SentenciaISwitchCaseNumDiasMes {
                 numeroDias = 30;
                 break;
             case 2:
-                if(anio % 400 == 0 || ((anio % 4 == 0) && !(anio % 100 == 0))){
+                if (anio % 400 == 0 || ((anio % 4 == 0) && !(anio % 100 == 0))) {
                     numeroDias = 29;
-                }else{
+                } else {
                     numeroDias = 28;
                 }
                 break;

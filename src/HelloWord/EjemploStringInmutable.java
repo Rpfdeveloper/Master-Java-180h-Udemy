@@ -5,7 +5,7 @@ public class EjemploStringInmutable {
         String curso = "Programación Java";
         String profesor = "Andrés Guzman";
 
-       String resultado = curso.concat(profesor);
+        String resultado = curso.concat(profesor);
 
         System.out.println("curso = " + curso);
         System.out.println("resultado = " + resultado);
@@ -17,7 +17,7 @@ public class EjemploStringInmutable {
         System.out.println("curso = " + curso);
         System.out.println("resultado2 = " + resultado2);
 
-        String resultado3 = resultado.replace("a", "A" );
+        String resultado3 = resultado.replace("a", "A");
 
         System.out.println("resultado = " + resultado);
 

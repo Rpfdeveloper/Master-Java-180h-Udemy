@@ -33,9 +33,9 @@ public class EjercicioOnceCalcularEdad {
             int edad = hoy.get(Calendar.YEAR) - nacimiento.get(Calendar.YEAR);
 
             //Evitamos errores por dia y mes de nacimiento
-            if(hoy.get(Calendar.MONTH) < nacimiento.get(Calendar.MONTH) ||
+            if (hoy.get(Calendar.MONTH) < nacimiento.get(Calendar.MONTH) ||
                     (hoy.get(Calendar.MONTH) == nacimiento.get(Calendar.MONTH) &&
-                            hoy.get(Calendar.DAY_OF_MONTH) < nacimiento.get(Calendar.DAY_OF_MONTH))){
+                            hoy.get(Calendar.DAY_OF_MONTH) < nacimiento.get(Calendar.DAY_OF_MONTH))) {
                 edad--;
             }
 

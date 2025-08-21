@@ -25,11 +25,11 @@ public class EjercicioSeisCalculoDeNombreMasLargoDeTres {
         } else if (name2.length() >= name1.length() && name2.length() >= name3.length()) {
 
             maxLengthName = name2;
-        }else {
+        } else {
 
             maxLengthName = name3;
         }
 
-        JOptionPane.showMessageDialog(null,"El nombre más largo es: " + maxLengthName);
+        JOptionPane.showMessageDialog(null, "El nombre más largo es: " + maxLengthName);
     }
 }

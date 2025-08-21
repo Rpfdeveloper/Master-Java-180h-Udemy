@@ -9,14 +9,14 @@ public class WrapperOperadoresRelacionales {
         System.out.println("num1 = " + num1);
         System.out.println("num2 = " + num2);
 
-        System.out.println("Son el mismo objeto? " + (num1 == num2) );
+        System.out.println("Son el mismo objeto? " + (num1 == num2));
 
         num2 = 1000;
 
         System.out.println("num1 = " + num1);
         System.out.println("num2 = " + num2);
 
-        System.out.println("Son el mismo objeto? " + (num1 == num2) );
+        System.out.println("Son el mismo objeto? " + (num1 == num2));
 
         System.out.println("Tienen el mismo valor? " + (num1.equals(num2)));
         System.out.println("Tienen el mismo valor? " + (num1.intValue() == num2.intValue()));

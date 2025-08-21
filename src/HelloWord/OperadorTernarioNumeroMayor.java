@@ -19,9 +19,9 @@ public class OperadorTernarioNumeroMayor {
         System.out.println("Ingrese un cuarto número");
         int num4 = s.nextInt();
 
-        max = (num1 > num2)? num1 : num2;
-        max = (max > num3)? max : num3;
-        max = (max > num4)? max : num4;
+        max = (num1 > num2) ? num1 : num2;
+        max = (max > num3) ? max : num3;
+        max = (max > num4) ? max : num4;
 
         System.out.println("num1 = " + num1);
         System.out.println("num2 = " + num2);

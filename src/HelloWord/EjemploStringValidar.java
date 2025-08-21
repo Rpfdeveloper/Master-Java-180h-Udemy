@@ -9,7 +9,7 @@ public class EjemploStringValidar {
 
         System.out.println("esNulo = " + esNulo);
 
-        if(esNulo){
+        if (esNulo) {
             curso = "Programación Java";
         }
         boolean esVacio = curso.length() == 0;
@@ -21,7 +21,7 @@ public class EjemploStringValidar {
         boolean esBlanco = curso.isBlank();
         System.out.println("esBlanco = " + esBlanco);
 
-        if(esBlanco == false){
+        if (esBlanco == false) {
             System.out.println(curso.toUpperCase());
             System.out.println("Bienvenido al curso ".concat(curso)); //concat solo cuando no sea nulo.
 

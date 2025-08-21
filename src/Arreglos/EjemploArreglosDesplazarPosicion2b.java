@@ -30,11 +30,11 @@ public class EjemploArreglosDesplazarPosicion2b {
             num[i + 1] = num[i];
         }
         int[] num2 = new int[num.length + 1];
-        System.arraycopy(num,0,num2,0,num.length);
+        System.arraycopy(num, 0, num2, 0, num.length);
         num = num2;
         num2[position] = insert;
 
-        num2[num2.length - 1]= ultimo;
+        num2[num2.length - 1] = ultimo;
 
         for (int i = 0; i < num.length; i++) {
             System.out.println("La posicion " + i + " contiene el número: " + num[i]);

@@ -12,9 +12,9 @@ public class EjemploMatricesStringFor {
         nombres[2][1] = "Pancha";
 
         System.out.println("Iterando con for: ");
-        for (int i = 0; i < nombres.length; i++){
+        for (int i = 0; i < nombres.length; i++) {
 
-            for (int j = 0; j < nombres[i].length; j++){
+            for (int j = 0; j < nombres[i].length; j++) {
                 System.out.print(nombres[i][j] + "\t");
             }
             System.out.println();
@@ -22,8 +22,8 @@ public class EjemploMatricesStringFor {
 
         System.out.println("Iterando con foreach: ");
 
-        for (String[] fila : nombres){
-            for(String nombre : fila){
+        for (String[] fila : nombres) {
+            for (String nombre : fila) {
                 System.out.println(nombre + "\t");
             }
             System.out.println();

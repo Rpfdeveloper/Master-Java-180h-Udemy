@@ -12,17 +12,18 @@ public class EjemploMatricesBuscar {
         boolean encontrado = false;
         int i;
         int j = 0;
-        buscar: for (i = 0; i < matrizDeEnteros.length; i++) {
+        buscar:
+        for (i = 0; i < matrizDeEnteros.length; i++) {
             for (j = 0; j < matrizDeEnteros[i].length; j++) {
-                if (matrizDeEnteros[i][j] == elementoBuscar){
+                if (matrizDeEnteros[i][j] == elementoBuscar) {
                     encontrado = true;
                     break buscar;
                 }
             }
         }
-        if (encontrado){
+        if (encontrado) {
             System.out.println("Encontrado = " + elementoBuscar + " En las cordenadas " + i + "," + j);
-        }else{
+        } else {
             System.out.println(elementoBuscar + "no se encontró el elemento a buscar en la matriz!");
         }
     }

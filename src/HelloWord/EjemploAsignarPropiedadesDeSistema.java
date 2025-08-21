@@ -11,7 +11,7 @@ public class EjemploAsignarPropiedadesDeSistema {
 
             Properties p = new Properties(System.getProperties());
             p.load(archivo);
-            p.setProperty("mi.propiedad.personalizada","Mi valor guardado en el objeto properties");
+            p.setProperty("mi.propiedad.personalizada", "Mi valor guardado en el objeto properties");
 
             System.setProperties(p);
             Properties ps = System.getProperties();

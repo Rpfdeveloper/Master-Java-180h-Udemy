@@ -13,14 +13,14 @@ public class EjemploStrinMetodos {
         System.out.println("nombre.compareTo(\"Julio\") = " + nombre.compareTo("Andres"));
         System.out.println("nombre.charAt(0) = " + nombre.charAt(0));
         System.out.println("nombre.charAt(1) = " + nombre.charAt(1));
-        System.out.println("nombre.charAt(nombre.length()-1) = " + nombre.charAt(nombre.length()-1));
+        System.out.println("nombre.charAt(nombre.length()-1) = " + nombre.charAt(nombre.length() - 1));
 
         System.out.println("nombre.substring(4) = " + nombre.substring(4));
-        System.out.println("nombre.substring(1,4) = " + nombre.substring(1,4));
-        System.out.println("nombre.substring(nombre.length()-2) = " + nombre.substring(nombre.length()-2));
-        
+        System.out.println("nombre.substring(1,4) = " + nombre.substring(1, 4));
+        System.out.println("nombre.substring(nombre.length()-2) = " + nombre.substring(nombre.length() - 2));
+
         String trabalenguas = "trabalenguas";
-        System.out.println("trabalenguas.replace(\"a\",\".\" ) = " + trabalenguas.replace("a","." ));
+        System.out.println("trabalenguas.replace(\"a\",\".\" ) = " + trabalenguas.replace("a", "."));
         System.out.println("trabalenguas = " + trabalenguas);
         System.out.println("trabalenguas.indexOf('a') = " + trabalenguas.indexOf('a'));
         System.out.println("trabalenguas.lastIndexOf(\"a\") = " + trabalenguas.lastIndexOf("a"));

@@ -9,7 +9,7 @@ public class EjemploArreglosEliminarElemento {
 
         Scanner s = new Scanner(System.in);
 
-        for (int i = 0; i< a.length; i++){
+        for (int i = 0; i < a.length; i++) {
             System.out.print("Ingrese un número: ");
             a[i] = s.nextInt();
         }
@@ -18,15 +18,15 @@ public class EjemploArreglosEliminarElemento {
         System.out.println("Ingrese una posicion para eliminar entre 0 y 9:");
         int posicion = s.nextInt();
 
-        for (int i = posicion; i < a.length - 1; i++){
+        for (int i = posicion; i < a.length - 1; i++) {
             a[i] = a[i + 1];
         }
 
         int[] b = new int[a.length - 1];
-        System.arraycopy(a,0,b,0,b.length);
+        System.arraycopy(a, 0, b, 0, b.length);
 
         a = b;
-        for (int i = 0; i < a.length; i++){
+        for (int i = 0; i < a.length; i++) {
             System.out.println(i + " => " + a[i]);
         }
     }

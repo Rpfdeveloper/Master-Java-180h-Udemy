@@ -15,15 +15,15 @@ public class OperadoresAritmeticos {
         int resta = i - j;
         System.out.println("resta = " + resta);
         System.out.println("resta = " + (i - j));
-        
+
         int multi = i * j;
         System.out.println("multi = " + multi);
-        
+
         int div = i / j;
         float div2 = (float) i / (float) j;
         System.out.println("div = " + div);
         System.out.println("div2 = " + div2);
-        
+
         int resto = i % j;
         System.out.println("resto = " + resto);
 
@@ -31,9 +31,9 @@ public class OperadoresAritmeticos {
         System.out.println("resto = " + resto);
 
         int numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número"));
-        if(numero % 2 == 0){
+        if (numero % 2 == 0) {
             System.out.println("numero par = " + numero);
-        }else{
+        } else {
             System.out.println("numero impar = " + numero);
         }
     }

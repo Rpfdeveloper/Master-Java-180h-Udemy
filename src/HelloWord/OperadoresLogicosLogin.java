@@ -17,8 +17,8 @@ public class OperadoresLogicosLogin {
         usernames[2]= "Pepe";
         passwords[2] = "12345";*/
 
-        String[] usernames = {"Roberto","admin","Pepe" };
-        String[] passwords = {"123","1234","12345"};
+        String[] usernames = {"Roberto", "admin", "Pepe"};
+        String[] passwords = {"123", "1234", "12345"};
 
         Scanner scanner = new Scanner(System.in);
 
@@ -29,8 +29,8 @@ public class OperadoresLogicosLogin {
         String p = scanner.next();
 
         boolean esAutenticado = false;
-        for(int i = 0; i < usernames.length; i++){
-            esAutenticado = (usernames[i].equals(u) && passwords[i].equals(p)? true : esAutenticado);
+        for (int i = 0; i < usernames.length; i++) {
+            esAutenticado = (usernames[i].equals(u) && passwords[i].equals(p) ? true : esAutenticado);
 
             /*if (usernames[i].equals(u) && passwords[i].equals(p)) {
                 esAutenticado = true;

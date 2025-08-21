@@ -14,7 +14,7 @@ public class EjemploJavaUtilDate {
         String fechaStr = df.format(fecha);
 
         long j = 0;
-        for(int i = 0; i<10000000; i++){
+        for (int i = 0; i < 10000000; i++) {
             j += i;
         }
 

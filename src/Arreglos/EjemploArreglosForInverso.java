@@ -6,7 +6,7 @@ public class EjemploArreglosForInverso {
     public static void main(String[] args) {
 
         //String [] productos = new String[7];
-        String [] productos = {"Kinstong Pendrive 64GV","Samsung Galaxy",
+        String[] productos = {"Kinstong Pendrive 64GV", "Samsung Galaxy",
                 "Disco duro SSD Samsung Externo", "Asus NoteBook",
                 "MacBook Air", "Chromecast 4ta generación", "Bicicleta Oxford"};
 
@@ -23,18 +23,18 @@ public class EjemploArreglosForInverso {
         Arrays.sort(productos);
 
         System.out.println("==== Usando for =====");
-        for (int i = 0; i < count; i++){
+        for (int i = 0; i < count; i++) {
             System.out.println("Para indice " + i + " : " + productos[i]);
         }
 
         System.out.println("==== Usando for inverso =====");
-        for(int i = 0; i < count; i++){
+        for (int i = 0; i < count; i++) {
             System.out.println("Para i = " + (count - 1 - i) + " valor " + productos[count - 1 - i]);
 
         }
 
         System.out.println("==== Usando for inverso 2 =====");
-        for(int i = count - 1; i >= 0; i--){
+        for (int i = count - 1; i >= 0; i--) {
             System.out.println("Para i = " + i + " valor " + productos[i]);
         }
 

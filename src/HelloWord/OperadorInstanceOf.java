@@ -30,9 +30,5 @@ public class OperadorInstanceOf {
         System.out.println("b1 es del tipo Boolean = " + b1);
 
 
-
-
-
-
     }
 }

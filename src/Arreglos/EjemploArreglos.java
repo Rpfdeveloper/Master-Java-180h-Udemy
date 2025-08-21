@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class EjemploArreglos {
     public static void main(String[] args) {
 
-        String [] productos = new String[7];
+        String[] productos = new String[7];
         productos[0] = "Kinstong Pendrive 64GV";
         productos[1] = "Samsung Galaxy";
         productos[2] = "Disco duro SSD Samsung Externo";
@@ -35,7 +35,7 @@ public class EjemploArreglos {
         System.out.println("productos[6] = " + prod7);
 
 
-        int [] numeros = new int[4];
+        int[] numeros = new int[4];
 
         numeros[0] = 10;
         numeros[1] = Integer.valueOf("7");

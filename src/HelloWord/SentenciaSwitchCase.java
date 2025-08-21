@@ -9,7 +9,7 @@ public class SentenciaSwitchCase {
         int mes = sc.nextInt();
         String nombreMes = null;
 
-        switch(mes){
+        switch (mes) {
             case 1:
                 nombreMes = "Enero";
                 break;
@@ -54,7 +54,7 @@ public class SentenciaSwitchCase {
 
         char num = 'z';
 
-        switch(num){
+        switch (num) {
             case '0':
                 System.out.println("El número es cero");
                 break;
@@ -76,7 +76,7 @@ public class SentenciaSwitchCase {
 
         String nombre = "andres";
 
-        switch(nombre){
+        switch (nombre) {
             case "admin":
                 System.out.println("Hola admin, bienvenido!");
                 break;

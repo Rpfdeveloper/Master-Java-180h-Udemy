@@ -1,6 +1,6 @@
 package HelloWord;
 
-class Persona{
+class Persona {
 
     private String nombre;
 
@@ -8,8 +8,8 @@ class Persona{
         nombre = nuevoNombre;
     }
 
-    public String leerNombre(){
-       return this.nombre;
+    public String leerNombre() {
+        return this.nombre;
     }
 }
 
@@ -31,7 +31,7 @@ public class PasarPorReferencia {
         System.out.println("Finaliza el método main con los datos del arreglos modificados");
     }
 
-    public static void test(Persona persona){
+    public static void test(Persona persona) {
         System.out.println("Iniciamos el método test");
         persona.modificarNombre("Pepe");
         System.out.println("Finaliza el método test");

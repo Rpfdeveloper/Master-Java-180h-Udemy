@@ -10,7 +10,7 @@ public class EjemploArreglosDesplazarPosicion3b {
 
         Scanner s = new Scanner(System.in);
 
-        for(int i = 0; i< a.length; i++){
+        for (int i = 0; i < a.length; i++) {
             System.out.print("introduzca un número: ");
             a[i] = s.nextInt();
         }
@@ -19,29 +19,29 @@ public class EjemploArreglosDesplazarPosicion3b {
         System.out.println("Introduzca un número a insertar:");
         numero = s.nextInt();
 
-        ultimo = a[a.length -1];
+        ultimo = a[a.length - 1];
         posicion = 0;
-        while(posicion < 6 && numero > a[posicion]){
+        while (posicion < 6 && numero > a[posicion]) {
             posicion++;
 
         }
 
-        for(int i = a.length - 2; i>= posicion; i--){
-            a[i+1] = a[i];
+        for (int i = a.length - 2; i >= posicion; i--) {
+            a[i + 1] = a[i];
         }
 
-        int[] b = new int[a.length +1];
+        int[] b = new int[a.length + 1];
         System.arraycopy(a, 0, b, 0, a.length);
 
-        if(numero > ultimo){
-            b[b.length -1] = numero;
-        }else{
-            b[b.length -1] = ultimo;
+        if (numero > ultimo) {
+            b[b.length - 1] = numero;
+        } else {
+            b[b.length - 1] = ultimo;
             b[posicion] = numero;
         }
         System.out.println("El arreglo ordenado:");
-        for(int i = 0; i < b.length; i++){
-            System.out.println( i+ " => " + b[i]);
+        for (int i = 0; i < b.length; i++) {
+            System.out.println(i + " => " + b[i]);
         }
     }
 }
