@@ -50,10 +50,22 @@ El ejemplo pide cinco enteros y muestra el mayor. Las clases se ejecutan por sep
 
 ## Estado de verificación
 
-Los 93 archivos fuente compilan con Java 17. La compilación muestra avisos de operaciones genéricas sin comprobar en algunos ejemplos. Se han ejecutado el ejemplo de automóviles y el de búsqueda del mayor; esto no equivale a una suite de pruebas del conjunto del curso.
+Los 93 archivos fuente compilan con Java 17. La compilación muestra avisos de operaciones genéricas sin comprobar en algunos ejemplos.
+
+Se han añadido **tres pruebas automatizadas** que ejecutan las clases reales: búsqueda del mayor con cinco conjuntos de datos (incluidos negativos y límites de enteros), transposición de la matriz del ejemplo y conservación de los datos de dos automóviles distintos. Las tres pasan en la revisión local con Java 17. No certifican el funcionamiento de los demás ejemplos del curso.
+
+Requisitos para las pruebas: Python 3 y JDK 17, con `java` y `javac` en el PATH o `JAVA_HOME` configurado.
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+En Windows también se puede usar `py -3 -m unittest discover -s tests -v`. La suite compila todos los fuentes en una carpeta temporal; no utiliza los `.class` históricos. El workflow [Java examples](https://github.com/Rpfdeveloper/Master-Java-180h-Udemy/actions) está configurado para ejecutar las comprobaciones en cada push y pull request.
 
 Hay archivos `.class` históricos en el repositorio. Los comandos anteriores recompilan el código fuente en `build/classes` y no utilizan esos binarios.
 
 ## Contexto y autoría
 
 Ejercicios de formación de [Roberto Pajuelo · Rpfdeveloper](https://github.com/Rpfdeveloper), basados en el curso indicado por el nombre del repositorio. Los ejemplos no se presentan como productos originales ni como experiencia profesional en Java.
+
+La documentación y las comprobaciones automatizadas añadidas el 20 de octubre de 2026 se han preparado con asistencia de IA.
