@@ -69,3 +69,5 @@ Hay archivos `.class` históricos en el repositorio. Los comandos anteriores rec
 Ejercicios de formación de [Roberto Pajuelo · Rpfdeveloper](https://github.com/Rpfdeveloper), basados en el curso indicado por el nombre del repositorio. Los ejemplos no se presentan como productos originales ni como experiencia profesional en Java.
 
 La documentación y las comprobaciones automatizadas añadidas el 20 de octubre de 2026 se han preparado con asistencia de IA.
+
+El 22 de octubre de 2026 se corrigió, también con asistencia de IA, la numeración de los mensajes de [`EjercicioCatorceNumeroMasAltoDeUnArreglo`](src/Arreglos/EjercicioCatorceNumeroMasAltoDeUnArreglo.java): la concatenación de texto mostraba `01`, `11`, `21`… en lugar de las posiciones `1` a `7`. Una comprobación de consola con siete entradas verificó la numeración corregida y el cálculo del mayor.
